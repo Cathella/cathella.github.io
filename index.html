@@ -4,60 +4,81 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar py-4 navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nakitto <span class="text-warning">Catherine.</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item px-4">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#">Support</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link btn btn-warning text-dark fw-bold px-3" href="#">My Projects</a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
 
   <!-- About me summary -->
-  <header class="container">
+  <header class="container py-5">
     <div class="row">
-      <div class="col-lg-6">
-        image
+      <div class="col-lg-5 mx-auto">
+        <img src="img/profile.png" class="img-fluid" alt="">
       </div>
-      <div class="col-lg-6">
-        <div>badge</div>
-        <h2>My title</h2>
-        <p>Something about who I am</p>
-        <div>
-          <a href="#">Contact Me</a>
-          <div>Social media links</div>
+      <div class="col-lg-5 mx-auto">
+        <div class="mb-3">
+          <!-- <small>Ruby on Rails - ReactJS</small> -->
+          <img src="img/Certified.png" width="100" alt="">
+        </div>
+        <h2 class="mb-3">Web Developer giving businesses an online presence.</h2>
+        <p class="mt-4 text-muted">
+          I’m a developer with a passion for intuitive design. 
+          I’m creative and view every new project as an opportunity to build 
+          something useful and elegant.
+          I develop with HTML, CSS, JavaScript, ReactJS, Ruby and Ruby on Rails.
+        </p>
+        <div class="d-flex align-items-center mt-5">
+          <a href="#" class="btn btn-warning text-dark fw-bold px-3 me-5">Contact Me</a>
+          <div>
+            <span class="mt-5">
+              <a href="https://github.com/Cathella" class="text-muted" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                class="ms-4 text-muted"
+                href="https://www.linkedin.com/in/nakitto-catherine2020/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                class="ms-4 text-muted"
+                href="https://twitter.com/cathella9"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="ms-4 text-muted"
+                href="https://www.youtube.com/channel/UCphB0qwb7_GVqKduQNasVZQ"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
@@ -87,7 +108,7 @@
     </div>
 
     <!-- My recent works -->
-    <div>
+    <div class="container">
       <div class="row">
         <div class="col-lg-6">
           <div>
@@ -125,25 +146,27 @@
     </div>
 
     <!-- My skills -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>What skill I have for you</h2>
-        <p>The skills that ... and other things</p>
-        <a href="#">Discover More</a>
-      </div>
-      <div class="col-lg-6">
-        <div class="row">
-          <div class="col-lg-6">
-            <h5><span>01.</span> UI/UX Design</h5>
-          </div>
-          <div class="col-lg-6">
-            <h5><span>01.</span> UI/UX Design</h5>
-          </div>
-          <div class="col-lg-6">
-            <h5><span>01.</span> UI/UX Design</h5>
-          </div>
-          <div class="col-lg-6">
-            <h5><span>01.</span> UI/UX Design</h5>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>What skill I have for you</h2>
+          <p>The skills that ... and other things</p>
+          <a href="#">Discover More</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-6">
+              <h5><span>01.</span> UI/UX Design</h5>
+            </div>
+            <div class="col-lg-6">
+              <h5><span>01.</span> UI/UX Design</h5>
+            </div>
+            <div class="col-lg-6">
+              <h5><span>01.</span> UI/UX Design</h5>
+            </div>
+            <div class="col-lg-6">
+              <h5><span>01.</span> UI/UX Design</h5>
+            </div>
           </div>
         </div>
       </div>
@@ -187,6 +210,10 @@
   <!-- Footer -->
   <footer>Made with love by Nakitto Catherine</footer>
 
+  <script
+      src="https://kit.fontawesome.com/7290f27402.js"
+      crossorigin="anonymous"
+    ></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
