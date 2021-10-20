@@ -1,4 +1,13 @@
 body {
-  background-color: #0e141b;
+  /* background-color: #0e141b; */
+  background: #343849;
   color: white;
+}
+
+.bg-transparent {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.my-products {
+  background: #282a37;
 }
