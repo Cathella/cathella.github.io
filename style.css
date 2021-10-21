@@ -27,7 +27,8 @@ body {
   transform: rotateZ(45deg);
 }
 
-.bg-fair-dark {
+.bg-fair-dark,
+.bg-fair {
   background: #343849;
 }
 
