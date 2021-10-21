@@ -11,3 +11,37 @@ body {
 .my-products {
   background: #282a37;
 }
+
+.arrow-pos {
+  top: 0;
+  right: 0;
+  padding: 25px;
+}
+
+.img-holder {
+  height: 350px;
+  overflow: hidden;
+}
+
+.rotated-arrow {
+  transform: rotateZ(45deg);
+}
+
+.bg-fair-dark {
+  background: #343849;
+}
+
+.bg-fair-dark:hover {
+  background: #ffc107;
+}
+
+.pdt-name {
+  text-transform: uppercase;
+}
+
+.pdt-badge {
+  right: 0;
+  bottom: 0;
+  padding: 10px 20px 15px;
+  background: #282a37;
+}
