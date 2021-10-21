@@ -46,3 +46,9 @@ body {
   padding: 10px 20px 15px;
   background: #282a37;
 }
+
+.blog-read {
+  bottom: 0;
+  right: 0;
+  text-transform: capitalize;
+}
