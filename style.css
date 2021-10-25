@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Sans+Pro&display=swap');
+
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, h2 span {
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
   /* background-color: #0e141b; */
   background: #343849;
@@ -30,6 +41,22 @@ body {
 .bg-fair-dark,
 .bg-fair {
   background: #343849;
+}
+
+.nakitto {
+  line-height: 1;
+  background: #343849;
+  right: -2em;
+  top: 0;
+  padding: 15px 20px ;
+}
+
+.proj {
+  line-height: 0.5;
+  background: #343849;
+  left: 0;
+  bottom: 1em;
+  padding: 20px 40px 20px 40px;
 }
 
 .bg-fair-dark:hover {
