@@ -74,6 +74,27 @@ body {
   background: #282a37;
 }
 
+.books-app,
+.todo-app,
+.homeschool-app {
+  background-image: url(img/books.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.todo-app {
+  background-image: url(img/todo.png);
+}
+
+.homeschool-app {
+  background-image: url(img/homeschool.png);
+}
+
+.bg-trans {
+  background:rgba(0, 0, 0, 0.4);
+}
+
 .blog-read {
   bottom: 0;
   right: 0;
