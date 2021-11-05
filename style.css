@@ -26,7 +26,7 @@ body {
 .arrow-pos {
   top: 0;
   right: 0;
-  padding: 25px;
+  padding: 15px;
 }
 
 .img-holder {
@@ -72,6 +72,10 @@ body {
   bottom: 0;
   padding: 10px 20px 15px;
   background: #282a37;
+}
+
+.project {
+  height: 240px;
 }
 
 .books-app,

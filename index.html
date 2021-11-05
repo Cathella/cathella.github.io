@@ -11,23 +11,26 @@
 <body>
   <nav class="navbar py-4 navbar-expand-lg navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Nakitto <span class="text-warning">Catherine.</span></a>
+      <a class="navbar-brand" href="index.html">Nakitto <span class="text-warning">Catherine.</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item px-4">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item px-4">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item px-4">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#posts">Blog posts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link rounded-0 btn bg-transparent px-3" href="#">My Projects</a>
+            <a class="nav-link rounded-0 btn bg-transparent px-3" href="#projects">My Projects</a>
           </li>
         </ul>
       </div>
@@ -35,15 +38,15 @@
   </nav>
 
   <!-- About me summary -->
-  <header class="container py-5 mb-5">
+  <header class="container py-5 mb-5" id="about">
     <div class="row">
       <div class="col-lg-5 mx-auto position-relative">
         <img src="img/profile.png" class="img-fluid mb-5" alt="">
-        <span class="fs-1 nakitto position-absolute">Nakitto<br>Catherine.</span>
-        <div class="fs-1 proj position-absolute">10<small class="fs-5 text-warning"><br>projects.</small></div>
+        <!-- <span class="fs-1 nakitto position-absolute">Nakitto<br>Catherine.</span> -->
+        <div class="fs-1 proj position-absolute">3<small class="fs-5 text-warning"><br>projects.</small></div>
       </div>
       <div class="col-lg-5 mx-auto">
-        <h2 class="mb-3 mt-5">I build features and products for businesses.</h2>
+        <h2 class="mb-3 mt-5">I build Web application features and products</h2>
         <p class="mt-4 text-muted">
           I’m a developer with a passion for intuitive design. 
           I’m creative and view every new project as an opportunity to build 
@@ -83,61 +86,19 @@
   </header>
 
   <main>
-    <!-- My Products -->
-    <div class="my-products py-5">
-      <div class="container">
-        <h2 class="mt-5 text-center">My Products</h2>
-        <div class="row">
-          <div class="col-lg-7 mx-auto">
-            <p class="mb-5 text-center mt-4 text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dignissimos similique totam ducimus quas vel, tempore possimus? Reprehenderit voluptatibus assumenda unde asperiores, dicta aliquam doloribus odio explicabo? Veritatis, eaque cupiditate.</p>
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-lg-5 ms-auto">
-            <div class="bg-fair-dark position-relative mb-4">
-              <a href="#" class="position-relative d-block">
-                <div class="position-absolute arrow-pos">
-                  <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                </div>
-                <div class="img-holder">
-                  <img src="img/webapp.png" class="img-fluid" alt="">
-                </div>
-                <div class="position-absolute pdt-badge">
-                  <span class="fs-1 text-white fw-bold">6</span>
-                  <small class="pdt-name text-white">Web Apps</small>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-5 me-auto">
-            <div class="bg-fair-dark position-relative mb-4">
-              <a href="#" class="position-relative d-block">
-                <div class="position-absolute arrow-pos">
-                  <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                </div>
-                <div class="img-holder">
-                  <img src="img/webapp.png" class="img-fluid" alt="">
-                </div>
-                <div class="position-absolute pdt-badge">
-                  <span class="fs-1 text-white fw-bold">10</span>
-                  <small class="pdt-name text-white">Templates</small>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- My recent works -->
-    <div class="my-products">
+    <div class="my-products" id="projects">
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-6">
-            <div class="">
-              <h2>Check  Out</h2>
-              <h2>My Recent Works</h2>
-              <p class="text-muted mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel consectetur iusto, quo qui commodi consequatur quasi minus tempora quisquam odio beatae, repellat vero. Modi neque ea animi magnam aut omnis.</p>
+            <div class="mt-5">
+              <h2>Check Out</h2>
+              <h2>My Recent Projects</h2>
+              <p class="text-muted mt-4">
+                I am passionate about each project I work on, from simple to complex, 
+                they all have a hint of personality that I add to them. Feel free to leave 
+                some form of feedback after checking them out.
+              </p>
             </div>
           </div>
           <div class="col-lg-4 mx-auto">
@@ -146,145 +107,61 @@
             </div>
           </div>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
-            <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="my-5">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="bg-fair books-app py-5 mb-4 text-center position-relative">
-                      <div class="position-absolute arrow-pos shadow border border-white bg-warning">
-                        <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                      </div>
-                      <h3 class="my-5 bg-trans"><a href="https://cathella.github.io/BooksApp/" class="text-white">Books App</a></h3>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="bg-fair todo-app py-5 mb-4 text-center position-relative">
-                      <div class="position-absolute arrow-pos shadow border border-white bg-warning">
-                        <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                      </div>
-                      <h3 class="my-5 bg-trans"><a href="https://cathella.github.io/to-do-list/dist/" class="text-white">Todo List App</a></h3>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="bg-fair homeschool-app py-5 mb-4 text-center position-relative">
-                      <div class="position-absolute arrow-pos shadow border border-white bg-warning">
-                        <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                      </div>
-                      <h3 class="my-5 bg-trans"><a href="https://stark-journey-70583.herokuapp.com/" class="text-white">Homeschool</a></h3>
-                    </div>
-                  </div>
+        <div class="my-5">
+          <div class="row">
+            <div class="col-lg-4 mb-5">
+              <div class="bg-fair project books-app mb-4 text-center position-relative">
+                <div class="position-absolute arrow-pos shadow bg-fair">
+                  <a href="https://cathella.github.io/BooksApp/" class="text-white">
+                    <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
+                  </a>
                 </div>
+              </div>
+              <div class="d-flex">
+                <a href="https://github.com/Cathella/BooksApp" class="btn btn-warning me-3 rounded-0"><i class="fab fa-github me-2"></i>Github Link</a>
+                <a href="https://cathella.github.io/BooksApp/" class="btn border rounded-0 border-warning text-warning">Live project<i class="fas fa-arrow-up text-warning ms-2 rotated-arrow"></i></a>
               </div>
             </div>
-            <!-- <div class="carousel-item">
-              <div class="my-5">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="bg-fair py-5 mb-4 text-center position-relative">
-                      <div class="position-absolute arrow-pos bg-warning">
-                        <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                      </div>
-                      <h3 class="my-5"><a href="#" class="text-white">Awesome Books</a></h3>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="bg-fair py-5 mb-4 text-center position-relative">
-                      <div class="position-absolute arrow-pos bg-warning">
-                        <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                      </div>
-                      <h3 class="my-5"><a href="#" class="text-white">Tundify</a></h3>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="bg-fair py-5 mb-4 text-center position-relative">
-                      <div class="position-absolute arrow-pos bg-warning">
-                        <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                      </div>
-                      <h3 class="my-5"><a href="#" class="text-white">TODO list</a></h3>
-                    </div>
-                  </div>
+            <div class="col-lg-4 mb-5">
+              <div class="bg-fair project todo-app mb-4 text-center position-relative">
+                <div class="position-absolute arrow-pos shadow bg-fair">
+                  <a href="https://cathella.github.io/to-do-list/dist/" class="text-white">
+                    <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
+                  </a>
                 </div>
               </div>
-            </div> -->
-            <!-- <div class="carousel-item">
-              <div class="my-5">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="bg-fair py-5 mb-4 text-center position-relative">
-                      <div class="position-absolute arrow-pos bg-warning">
-                        <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                      </div>
-                      <h3 class="my-5"><a href="#" class="text-white">Report++</a></h3>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="bg-fair py-5 mb-4 text-center position-relative">
-                      <div class="position-absolute arrow-pos bg-warning">
-                        <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                      </div>
-                      <h3 class="my-5"><a href="#" class="text-white">Tidy</a></h3>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="bg-fair py-5 mb-4 text-center position-relative">
-                      <div class="position-absolute arrow-pos bg-warning">
-                        <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
-                      </div>
-                      <h3 class="my-5"><a href="#" class="text-white">Decok</a></h3>
-                    </div>
-                  </div>
+              <div class="d-flex">
+                <a href="https://github.com/Cathella/to-do-list" class="btn btn-warning me-3 rounded-0"><i class="fab fa-github me-2"></i>Github Link</a>
+                <a href="https://cathella.github.io/to-do-list/dist/" class="btn border rounded-0 border-warning text-warning">Live project<i class="fas fa-arrow-up text-warning ms-2 rotated-arrow"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+              <div class="bg-fair project homeschool-app mb-4 text-center position-relative">
+                <div class="position-absolute arrow-pos shadow bg-fair">
+                  <a href="https://stark-journey-70583.herokuapp.com/" class="text-white">
+                    <i class="fas fa-lg fa-arrow-up text-white rotated-arrow"></i>
+                  </a>
                 </div>
               </div>
-            </div> -->
+              <div class="d-flex">
+                <a href="https://github.com/Cathella/homeschool_react_rails_app" class="btn btn-warning me-3 rounded-0"><i class="fab fa-github me-2"></i>Github Link</a>
+                <a href="https://stark-journey-70583.herokuapp.com/" class="btn border rounded-0 border-warning text-warning">Live project<i class="fas fa-arrow-up text-warning ms-2 rotated-arrow"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- My skills -->
-    <!-- <div class="container py-5">
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>What skill I have for you</h2>
-          <p>The skills that ... and other things</p>
-          <a href="#">Discover More</a>
-        </div>
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-lg-6">
-              <h5><span>01.</span> UI/UX Design</h5>
-            </div>
-            <div class="col-lg-6">
-              <h5><span>01.</span> UI/UX Design</h5>
-            </div>
-            <div class="col-lg-6">
-              <h5><span>01.</span> UI/UX Design</h5>
-            </div>
-            <div class="col-lg-6">
-              <h5><span>01.</span> UI/UX Design</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <!-- My Blog posts -->
-    <div class="container py-5">
-      <h2 class="text-center mt-5">See Blog Posts</h2>
-      <h2 class="text-center mb-5">Articles to Read</h2>
+    <div class="container py-5" id="posts">
+      <h2 class="text-center mt-5">See Blog Post</h2>
+      <h2 class="text-center mb-5 text-warning">Articles to Read</h2>
       <div class="row">
         <div class="col-lg-6 ms-auto">
-          <div class="my-products px-4 py-5 mb-3 position-relative">
+          <div class="my-products p-5 mb-4 position-relative">
             <div class="d-flex justify-content-between">
-              <h3>3 Ways to make API Requests in React.</h3>
-              <!-- <p>Icon</p> -->
+              <h4>3 Ways to make API Requests in React.</h4>
             </div>
             <p class="text-muted">
               When working with React there are several things that can be particularly annoying to deal with 
@@ -296,15 +173,14 @@
           </div>
         </div>
         <div class="col-lg-6 me-auto">
-          <div class="my-products py-5 px-4 mb-3 position-relative">
+          <div class="my-products p-5 mb-4 position-relative">
             <div class="d-flex justify-content-between">
-              <h3>JavaScript Project Configuration with Webpack.</h3>
+              <h4>JavaScript Project Configuration with Webpack.</h4>
             </div>
             <p class="text-muted">
               We are going to look at a basic Webpack setup for your JavaScript application. 
               Sometimes Webpack can be a headache to configure and a lot of people may skip setting 
-              it up and opt for already created templates that already have everything already 
-              configured for them.
+              it up and opt for already created templates.
             </p>
             <small>October 30, 2021</small>
             <a href="https://ncathie214.medium.com/javascript-project-configuration-with-webpack-5c62add11918" target="_blank" class="btn btn-warning px-5 rounded-0 position-absolute blog-read">read</a>
@@ -314,7 +190,7 @@
     </div>
 
     <!-- Contact me -->
-    <div class="container mt-4">
+    <div class="container mt-4" id="contact">
       <div class="row">
         <div class="col-lg-12">
           <div class="my-products py-5 px-4">
