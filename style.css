@@ -80,7 +80,8 @@ body {
 
 .books-app,
 .todo-app,
-.homeschool-app {
+.foodmood-app,
+.leaderboard-app {
   background-image: url(img/books.png);
   background-size: 100%;
   background-position: center;
@@ -91,8 +92,12 @@ body {
   background-image: url(img/todo.png);
 }
 
-.homeschool-app {
-  background-image: url(img/homeschool.png);
+.leaderboard-app {
+  background-image: url(img/leaderboard.png);
+}
+
+.foodmood-app {
+  background-image: url(img/foodmood.png);
 }
 
 .bg-trans {
