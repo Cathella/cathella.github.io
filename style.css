@@ -81,6 +81,7 @@ body {
 .books-app,
 .todo-app,
 .foodmood-app,
+.quizzy-app,
 .leaderboard-app {
   background-image: url(img/books.png);
   background-size: 100%;
@@ -98,6 +99,10 @@ body {
 
 .foodmood-app {
   background-image: url(img/foodmood.png);
+}
+
+.quizzy-app {
+  background-image: url(img/quizzy.png);
 }
 
 .bg-trans {
