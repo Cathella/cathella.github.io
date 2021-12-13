@@ -82,7 +82,8 @@ body {
 .todo-app,
 .foodmood-app,
 .quizzy-app,
-.leaderboard-app {
+.leaderboard-app,
+.magians-app {
   background-image: url(img/books.png);
   background-size: 100%;
   background-position: center;
@@ -103,6 +104,10 @@ body {
 
 .quizzy-app {
   background-image: url(img/quizzy.png);
+}
+
+.magians-app {
+  background-image: url(img/magicians.png);
 }
 
 .bg-trans {
