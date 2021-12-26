@@ -5,12 +5,13 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, h2 span, .proj {
+h1, h2, h3, h4, h5, h6, h2 span, .proj span {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
 body {
-  /* background-color: #0e141b; */
   background: #343849;
   color: white;
 }
@@ -76,38 +77,6 @@ body {
 
 .project {
   height: 240px;
-}
-
-.books-app,
-.todo-app,
-.foodmood-app,
-.quizzy-app,
-.leaderboard-app,
-.magians-app {
-  background-image: url(img/books.png);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.todo-app {
-  background-image: url(img/todo.png);
-}
-
-.leaderboard-app {
-  background-image: url(img/leaderboard.png);
-}
-
-.foodmood-app {
-  background-image: url(img/foodmood.png);
-}
-
-.quizzy-app {
-  background-image: url(img/quizzy.png);
-}
-
-.magians-app {
-  background-image: url(img/magicians.png);
 }
 
 .bg-trans {

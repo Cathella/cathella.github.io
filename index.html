@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nakitto Catherine</title>
+  <title>Nakitto's Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -37,15 +37,14 @@
     </div>
   </nav>
 
-  <!-- About me summary -->
   <header class="container py-5 mb-5" id="about">
     <div class="row">
       <div class="col-6 col-sm-6 col-md-6 col-lg-4 mx-auto position-relative">
         <img src="img/profile.png" class="img-fluid mb-5" alt="">
-        <div class="fs-1 proj position-absolute d-none d-sm-block">6<small class="fs-5 text-warning"><br>projects.</small></div>
+        <div class="fs-1 proj position-absolute d-none d-sm-block"><span id="projectCounter">${count}</span><small class="fs-5 text-warning"><br>projects.</small></div>
       </div>
       <div class="col-md-9 col-lg-5 mx-auto">
-        <h2 class="mb-3">I build Web application features and products</h2>
+        <h2 class="mb-3 mt-3">I build Web features and products</h2>
         <p class="mt-4">
           <span class="text-muted">Hello</span> 👋
           <span class="text-muted">! My name is Nakitto Catherine. I am a full-stack developer with 
@@ -56,7 +55,7 @@
           skills from coding everyday with other developers around the world.</span>
         </p>
         <div class="d-flex align-items-center mt-4">
-          <a href="img/nakitto_catherine_resume.pdf" target="_blank" class="btn btn-warning rounded-0 text-dark px-4 py-2 me-5">Resume</a>
+          <a href="img/Nakitto_Catherine_Resume.pdf" target="_blank" class="btn btn-warning rounded-0 text-dark px-4 py-2 me-5">Resume</a>
           <div>
             <span class="mt-5">
               <a href="https://github.com/Cathella" class="text-white" target="_blank"
@@ -88,7 +87,6 @@
   </header>
 
   <main>
-    <!-- My recent works -->
     <div class="my-products" id="projects">
       <div class="container py-5">
         <div class="row">
@@ -110,8 +108,8 @@
           </div>
         </div>
         <div class="my-5">
-          <div class="row">
-            <div class="col-md-6 col-lg-4 mb-5">
+          <div class="row" id="myProjects">
+            <!-- <div class="col-md-6 col-lg-4 mb-5">
               <div class="bg-fair project books-app mb-4 text-center position-relative">
                 <div class="position-absolute arrow-pos shadow bg-fair">
                   <a href="https://cathella.github.io/BooksApp/" class="text-white">
@@ -194,13 +192,12 @@
                 <a href="https://math-magicians-nakitto.netlify.app/" class="btn border rounded-0 me-3 border-warning text-warning"><i class="fas fa-arrow-up text-warning rotated-arrow"></i></a>
                 <a href="" class="btn me-3 text-white rounded-0 border">Math Magicians</a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </div>
 
-    <!-- My Blog posts -->
     <div class="container py-5" id="posts">
       <h2 class="text-center mt-5">See Blog Post</h2>
       <h2 class="text-center mb-5 text-warning">Articles to Read</h2>
@@ -242,7 +239,7 @@
         <div class="col-lg-12">
           <div class="my-products py-5 px-4">
             <h2 class="text-center mt-5">Got an idea? Tell me and let's work</span></h2>
-            <h2 class="text-center mb-5">together and <span class="text-warning">make it happen!</span></h2>
+            <h2 class="text-center mb-5">together to <span class="text-warning">make it happen!</span></h2>
             <div class="row">
               <div class="col-lg-5 mx-auto">
                 <form action="#" class="d-flex justify-content-center mb-4">
@@ -260,8 +257,9 @@
   </main>
 
   <!-- Footer -->
-  <footer class="text-center py-5 text-muted"><small>&copy; Nakitto Catherine &middot; 2021</small></footer>
-
+  <footer class="text-center py-5 text-muted"><small>&copy; 2021 &middot; Made with 💛 by <a class="text-warning" href="https://github.com/Cathella">Nakitto Catherine</a></small></footer>
+  
+  <script src="index.js"></script>
   <script
       src="https://kit.fontawesome.com/7290f27402.js"
       crossorigin="anonymous"
