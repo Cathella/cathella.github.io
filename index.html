@@ -241,10 +241,12 @@
             <h2 class="text-center mt-5">Got an idea? Tell me and let's work</span></h2>
             <h2 class="text-center mb-5">together to <span class="text-warning">make it happen!</span></h2>
             <div class="row">
-              <div class="col-lg-5 mx-auto">
-                <form action="#" class="d-flex justify-content-center mb-4">
+              <div class="col-lg-11 mx-auto">
+                <form action="https://formspree.io/f/xgennjbd" class="d-flex justify-content-center mb-4" method="POST">
                   <div class="input-group">
-                    <input type="email" name="email" id="email" class="form-control bg-transparent rounded-0 text-white" placeholder="Email Address">
+                    <input type="text" name="fullName" placeholder="Name" class="form-control bg-transparent rounded-0 text-white" required />
+                    <input type="email" name="email" id="email" class="form-control bg-transparent rounded-0 text-white" placeholder="Email Address" required />
+                    <input type="text" name="message" placeholder="Message" class="form-control bg-transparent rounded-0 text-white" required />
                     <button class="btn btn-warning rounded-0" type="submit">Contact me</button>
                   </div>
                 </form>
