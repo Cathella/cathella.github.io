@@ -92,3 +92,12 @@ body {
 .text-muted {
   color: rgba(255, 255, 255, 0.6) !important;
 }
+
+.btn-close {
+  color: white;
+}
+
+.modal-header .btn-close {
+  border: 1px solid rgba(255, 255, 255, .4);
+  color: white !important;
+}
