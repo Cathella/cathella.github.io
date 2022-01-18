@@ -1,5 +1,30 @@
 const projects = [
   {
+    id: "project-8",
+    name: "Pomodoro",
+    github: "https://github.com/Cathella/pomodoro",
+    live: "",
+    imgsrc: "img/timer.png",
+    technologies: ['ReactJS', 'HTML', 'CSS'],
+    description: "The aim of this app is to help you focus on any task you are working on, such as study, writing, or coding. This app is inspired by Pomodoro Technique which is a time management method developed by Francesco Cirillo.",
+    milestones: [
+      'Initialize React app.',
+      'Add React Redux (npm install react-redux) to it.',
+      'Structure the application files using a "feature folder" approach and used the ducks pattern for the Redux files.',
+      'Add React Router to set s and s for the apps navigation.',
+      'Display the list of books with a remove button.',
+      'Add a form for adding a book.',
+      'Add Categories component displaying "Under construction" text only.',
+      'Configure Redux store and create a booksReducer with actions.',
+      'Use redux-logger to check if the application is working correctly on the console logs.',
+      'Implement adding and removing a book in the components.',
+      'Connect the React-Redux application to an existing API',
+      'Add books to the API',
+      'Remove books from the API',
+      'Style the application according to the design provided in ZeplinStyle the application according to the design provided in Zeplin.',
+    ]
+  },
+  {
     id: "project-7",
     name: "Book Store",
     github: "https://github.com/Cathella/book-store",
