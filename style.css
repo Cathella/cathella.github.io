@@ -5,11 +5,15 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, h2 span, .proj span {
+h1, h2, h3, h4, h5, h6, h2 span, 
+.proj span,
+h1 span {
   font-family: 'Montserrat', sans-serif;
 }
 
-
+h1 span {
+  text-decoration: underline;
+}
 
 body {
   background: #343849;
