@@ -67,7 +67,7 @@ const projects = [
 
 document.getElementById("myProjects").innerHTML = projects.map(project => 
   `
-  <div class="col-md-6 col-lg-3 mb-5">
+  <div class="col-md-6 col-lg-4 mb-5">
     <div class="text-center position-relative">
       <div>
         <img src="${project.imgsrc}" alt="${project.name}"  class="img-fluid" />
