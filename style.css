@@ -45,8 +45,8 @@ nav {
   padding: 5px 30px;
   border: 1px solid #55E6A5;
   background: transparent;
-  font-family: 'AvertaStd-Bold';
-  font-size: 14px;
+  font-family: 'AvertaStd-Regular';
+  font-size: 16px;
   color: #55E6A5;
   text-decoration: none;
 }
@@ -58,8 +58,9 @@ nav {
 
 header {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 50px;
 }
 
 .profile {
@@ -68,6 +69,7 @@ header {
   align-items: center;
   background: #181818;
   width: 30%;
+  padding: 15px 0;
 }
 
 .prof {
@@ -76,6 +78,7 @@ header {
 
 .social {
   display: flex;
+  align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   margin: 20px 0 30px;
   padding-bottom: 20px;
@@ -86,8 +89,12 @@ header {
   margin: 0 20px;
 }
 
+.social img {
+  height: 20px;
+}
+
 .about {
-  width: 60%;
+  width: 45%;
 }
 
 .badge {
@@ -158,4 +165,32 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   font-family: 'AvertaStd-Regular';
   font-size: 14px;
+}
+
+.migas {
+  background: url('images/MiGasScreens.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.storytime {
+  background: url('images/Storytime.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.studybuddy {
+  background: url('images/Studybuddy.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.posha {
+  background: url('images/Posha-Account.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
