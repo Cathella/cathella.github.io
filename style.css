@@ -48,3 +48,53 @@ nav {
   color: #55E6A5;
   text-decoration: none;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #181818;
+  width: 30%;
+}
+
+.prof {
+  width: 150px;
+}
+
+.social {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 20px 0 30px;
+  padding-bottom: 20px;
+}
+
+.social a { 
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.about {
+  width: 60%;
+}
+
+.badge {
+  margin: 0 0 20px;
+  padding: 2px 15px;
+  display: inline-block;
+  background: #55E6A5;
+  font-family: 'AvertaStd-Bold';
+  font-size: 14px;
+  color: #181818;
+}
+
+.content {
+  font-family: 'AvertaStd-Regular';
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.6);
+}
