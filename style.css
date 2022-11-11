@@ -3,6 +3,8 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
   background-color: #181818;
   background-image: url('images/background.png');
   background-position: center center;
@@ -49,9 +51,15 @@ nav {
   text-decoration: none;
 }
 
+.button img {
+  height: 22px;
+  margin-left: 10px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .profile {
@@ -97,4 +105,57 @@ header {
   font-size: 16px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 100px;
+}
+
+.projects section {
+  width: 445px;
+  height: 520px;
+  border: 2px solid #55E6A5;
+  position: relative;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.projects span {
+  position: absolute;
+  color: #181818;
+  background: #55E6A5;
+  font-family: 'AvertaStd-Bold';
+  font-size: 14px;
+  color: #181818;
+  padding: 2px 15px;
+}
+
+.scroll {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: end;
+}
+
+.scroll a {
+  display: flex;
+  align-items: center;
+  font-family: 'AvertaStd-Bold';
+  font-size: 15px;
+  color: #55E6A5;
+}
+
+.scroll img {
+  margin-left: 5px;
+}
+
+footer {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'AvertaStd-Regular';
+  font-size: 14px;
 }
