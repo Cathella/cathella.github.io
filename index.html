@@ -5,232 +5,113 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nakitto's Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar py-4 navbar-expand-lg navbar-dark">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Nakitto <span class="text-warning">Catherine.</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item px-4">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">My Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="designer.html">UI/UX Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#posts">Blog posts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <div class="container">
+    <nav>
+      <a href="#" class="logo">NC<span>.</span></a>
+      <div>
+        <a href="#" class="button">
+          Contact Me
+          <img src="icons/Arrowup.svg" alt="">
+        </a>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <header class="container py-5 mb-5" id="about">
-    <div class="row">
-      <div class="col-6 col-sm-6 col-md-6 col-lg-4 mx-auto position-relative">
-        <img src="img/profile.png" class="img-fluid mb-5" alt="">
-        <div class="fs-1 proj position-absolute d-none d-sm-block"><span id="projectCounter">${count}</span><small class="fs-5 text-warning"><br>projects.</small></div>
+    <header>
+      <div class="profile">
+        <img src="images/Nakitto.svg" class="prof" alt="This is Me">
+        <div class="social">
+          <a href="https://github.com/Cathella" target="_blank">
+            <img src="icons/Github.svg" alt="">
+          </a>
+          <a href="https://www.linkedin.com/in/nakitto-catherine2020/" target="_blank">
+            <img src="icons/Linkedin.svg" alt="">
+          </a>
+          <a href="https://twitter.com/cathella9" target="_blank">
+            <img src="icons/Twitter.svg" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="#" class="button">
+            Resume
+            <img src="icons/Download.svg" alt="">
+          </a>
+        </div>
       </div>
-      <div class="col-md-9 col-lg-5 mx-auto">
-        <h2 class="mb-3 mt-3">I build Web features and products</h2>
-        <p class="mt-4">
-          <span class="text-muted">Hello</span> 👋
-          <span class="text-muted">! My name is Nakitto Catherine. I am a full-stack developer with 
-          skills in Ruby, Ruby on Rails, JavaScript and ReactJs.<br><br>
-          I am currently working remotely in a team with other developers 
-          at Microverse, an online training school, where we pair-program and 
-          build projects together. I have acquired teamwork and good communication 
-          skills from coding everyday with other developers around the world.</span>
-        </p>
-        <div class="d-flex align-items-center mt-4">
-          <a href="img/Nakitto_Catherine_Resume.pdf" target="_blank" class="btn btn-warning rounded-0 text-dark px-4 py-2 me-4">Resume</a>
+      <div class="about">
+        <div class="badge">About Me</div>
+        <div class="content">
+          Hi 👋, I am Nakitto Catherine. A ReactJS developer, 
+          a Ruby on Rails developer and a UI/UX designer.<br><br>
+
+          I have trained at Microverse, an online training school, 
+          where we pair-programmed and built projects together remotely. 
+          I acquired teamwork and good communication skills from coding 
+          daily with other developers worldwide.<br><br>
+          
+          I am available for Entry UI/UX | ReactJS | Ruby on Rails positions. <br>
+          Please checkout my personal projects below. 
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="scroll">
+        <a href="#">
+          Scroll
+          <img src="icons/Arrowright.svg" alt="">
+        </a>
+      </div>
+
+      <div class="projects">
+        <section class="ulist project">
+          <span>Ulist</span>
           <div>
-            <a 
-              class="ms-4 d-inline-block"
-              href="https://github.com/Cathella" 
-              target="_blank">
-              <img src="img/github-brands.svg" alt="" height="20px" />
-            </a>
-            <a
-              class="ms-4 d-inline-block"
-              href="https://www.linkedin.com/in/nakitto-catherine2020/"
-              target="_blank">
-              <img src="img/linkedin-in-brands.svg" alt="" height="20px" />
-            </a>
-            <a
-              class="ms-4 d-inline-block"
-              href="https://twitter.com/cathella9"
-              target="_blank">
-              <img src="img/twitter-brands(1).svg" alt="" height="20px" />
-            </a>
-            <a
-              class="ms-4 d-inline-block"
-              href="https://www.youtube.com/channel/UCphB0qwb7_GVqKduQNasVZQ"
-              target="_blank">
-              <img src="img/youtube-brands.svg" alt="" height="20px" />
-            </a>
-            <a
-              class="ms-4 d-inline-block"
-              href="https://dribbble.com/nakittocatherine"
-              target="_blank">
-              <img src="img/dribbble-brands.svg" alt="" height="20px" />
-            </a>
-            <a
-              class="ms-4 d-inline-block"
-              href="https://www.behance.net/ncathie"
-              target="_blank">
-              <img src="img/behance-brands.svg" alt="" height="20px" />
-            </a>
+            <a href="#">UI/UX Case Study</a>
+            <a href="#">Project Code</a>
+            <a href="#">Live Project Link</a>
           </div>
-        </div>
+        </section>
+        <section class="studybuddy project">
+          <span>StudyBuddy</span>
+          <div>
+            <a href="#">UI/UX Case Study</a>
+            <a href="#">Project Code</a>
+            <a href="#">Live Project Link</a>
+          </div>
+        </section>
+        <section class="migas project">
+          <span>MiGas</span>
+          <div>
+            <a href="#">UI/UX Case Study</a>
+            <a href="#">Project Code</a>
+            <a href="#">Live Project Link</a>
+          </div>
+        </section>
+        <section class="storytime project">
+          <span>Storytime</span>
+          <div>
+            <a href="#">UI/UX Case Study</a>
+            <a href="#">Project Code</a>
+            <a href="#">Live Project Link</a>
+          </div>
+        </section>
+        <section class="posha project">
+          <span>Posha</span>
+          <div>
+            <a href="#">UI/UX Case Study</a>
+            <a href="#">Project Code</a>
+            <a href="#">Live Project Link</a>
+          </div>
+        </section>
       </div>
-    </div>
-  </header>
+    </main>
+  </div>
 
-  <main>
-    <div class="my-products" id="projects">
-      <div class="container py-5">
-        <!-- <div class="row"> -->
-          <!-- <div class="col-lg-6">
-            <div class="mt-5">
-              <h2>Check Out</h2>
-              <h2>My Recent Projects</h2>
-              <p class="text-muted mt-4">
-                I am passionate about each project I work on, from simple to complex, 
-                they all have a hint of personality that I add to them. Feel free to leave 
-                some form of feedback after checking them out.
-              </p>
-            </div>
-          </div> -->
-          <!-- <div class="col-lg-4 ms-auto">
-            <div class="mt-5 d-flex justify-content-end">
-              <a href="#" class="btn btn-warning px-4 rounded-0 mt-5 shadow">More Projects</a>
-            </div>
-          </div> -->
-        <!-- </div> -->
-        <!-- <div class="row">
-          <div class="col-md-6">
-            <div class="ratio ratio-16x9">
-              <iframe src="https://youtube.com/embed/QqiFD-2X1Uk" title="YouTube video" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="col-md-5 mx-auto">
-            <h4>Homeschool <span class="text-warning"> - (Current Project)</span></h4>
-            <p class="text-muted mb-4">
-              Homeschool is a project that will avail students with practice questions in different study topics 
-              in the form of quizzes, lessons and discussions. Teachers will also be able to sign up to create 
-              or upload lessons for their students.
-            </p>
-            <h6>Features</h6>
-            <ul class="text-muted">
-              <li>An authentication system for students and teachers</li>
-              <li>Students can view and comment on lessons</li>
-              <li>Teachers can upload lessons</li>
-              <li>Teachers can submit questions and answers for a Quiz question</li>
-              <li>Quiz questions should verified by the Admin</li>
-              <li>Both Teachers and Students can create a discussion</li>
-              <li>Both Teachers and Students can participate in the discussions through thread comments.</li>
-            </ul>
-            <h6>Technologies</h6>
-            <div class="text-muted mb-5">ReactJS + Redux (Frontend), Ruby on Rails API (Backend).</div>
-          </div>
-        </div> -->
-        <div class="my-5">
-          <div class="row" id="myProjects"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container py-5" id="posts">
-      <h2 class="text-center mt-5">See Blog Post</h2>
-      <h2 class="text-center mb-5 text-warning">Articles to Read</h2>
-      <div class="row">
-        <div class="col-lg-5 ms-auto">
-          <div class="my-products p-5 mb-4 position-relative">
-            <div class="d-flex justify-content-between">
-              <h4>3 Ways to make API Requests in React.</h4>
-            </div>
-            <p class="text-muted">
-              When working with React there are several things that can be particularly annoying to deal with 
-              controlled forms (solutions: formik, merced-react-hooks), asynchronous requests (solutions: 
-              react-request, merced-react-hooks).
-            </p>
-            <small>August 12, 2021</small>
-            <a href="https://tuts.alexmercedcoder.com/2021/8/api_calls_react/" target="_blank" class="btn btn-warning px-5 rounded-0 position-absolute blog-read">read</a>
-          </div>
-        </div>
-        <div class="col-lg-5 me-auto">
-          <div class="my-products p-5 mb-4 position-relative">
-            <div class="d-flex justify-content-between">
-              <h4>JS Project Configuration with Webpack.</h4>
-            </div>
-            <p class="text-muted">
-              We are going to look at a basic Webpack setup for your JavaScript application. 
-              Sometimes Webpack can be a headache to configure and a lot of people may skip setting 
-              it up and opt for already created templates.
-            </p>
-            <small>October 30, 2021</small>
-            <a href="https://ncathie214.medium.com/javascript-project-configuration-with-webpack-5c62add11918" target="_blank" class="btn btn-warning px-5 rounded-0 position-absolute blog-read">read</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Contact me -->
-    <div class="container mt-4" id="contact">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="my-products py-5 px-4">
-            <h2 class="text-center mt-5">Got an idea? Tell me and let's work</span></h2>
-            <h2 class="text-center mb-5">together to <span class="text-warning">make it happen!</span></h2>
-            <div class="row">
-              <div class="col-lg-6 mx-auto">
-                <form action="https://formspree.io/f/xgennjbd" class="mb-4" method="POST">
-                  <div class="row">
-                    <div class="col-lg-6 mb-4">
-                      <input type="text" name="fullName" placeholder="Name" class="form-control bg-transparent rounded-0 text-white" required />
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                      <input type="email" name="email" id="email" class="form-control bg-transparent rounded-0 text-white" placeholder="Email Address" required />
-                    </div>
-                    <div class="col-lg-12 mb-4">
-                      <textarea name="message" placeholder="Message" class="form-control bg-transparent rounded-0 text-white" cols="30" rows="5"></textarea>
-                    </div>
-                    <div class="col-lg-12 mb-5">
-                      <button class="btn btn-warning rounded-0 w-100" type="submit">Contact me</button>
-                    </div>
-                  </div>
-                  <div class="input-group">
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- Footer -->
-  <footer class="text-center py-5 text-muted"><small>&copy; 2021 &middot; Made with 💛 by <a class="text-warning" href="https://github.com/Cathella">Nakitto Catherine</a></small></footer>
-  
-  <script src="index.js"></script>
-  <script
-      src="https://kit.fontawesome.com/7290f27402.js"
-      crossorigin="anonymous"
-    ></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <footer>
+    &copy; 2022 - 2023. Nakitto Catherine.
+  </footer>
 </body>
 </html>
