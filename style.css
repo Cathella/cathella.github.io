@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -26,8 +29,8 @@ nav {
 }
 
 .logo {
-  font-family: 'AvertaStd-Bold';
   font-size: 24px;
+  font-weight: 600;
   line-height: 35px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -45,8 +48,8 @@ nav {
   padding: 5px 30px;
   border: 1px solid #55E6A5;
   background: transparent;
-  font-family: 'AvertaStd-Regular';
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 600;
   color: #55E6A5;
   text-decoration: none;
 }
@@ -102,13 +105,12 @@ header {
   padding: 2px 15px;
   display: inline-block;
   background: #55E6A5;
-  font-family: 'AvertaStd-Bold';
   font-size: 14px;
+  font-weight: 600;
   color: #181818;
 }
 
 .content {
-  font-family: 'AvertaStd-Regular';
   font-size: 16px;
   line-height: 30px;
   color: rgba(255, 255, 255, 1);
@@ -138,8 +140,8 @@ header {
   position: absolute;
   color: #181818;
   background: #55E6A5;
-  font-family: 'AvertaStd-Bold';
   font-size: 14px;
+  font-weight: bold;
   color: #181818;
   padding: 2px 15px;
 }
@@ -154,10 +156,10 @@ header {
 
 .projects a {
   display: block;
-  font-family: 'AvertaStd-Bold';
   font-size: 14px;
   color: #181818;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 
 .scroll {
@@ -169,8 +171,7 @@ header {
 .scroll a {
   display: flex;
   align-items: center;
-  font-family: 'AvertaStd-Bold';
-  font-size: 15px;
+  font-size: 16px;
   color: #55E6A5;
 }
 
@@ -183,7 +184,6 @@ footer {
   padding: 30px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  font-family: 'AvertaStd-Regular';
   font-size: 14px;
 }
 
