@@ -122,12 +122,22 @@ header {
 }
 
 .projects section {
-  width: 445px;
+  width: 400px;
   height: 520px;
   border: 2px solid #55E6A5;
   position: relative;
-  margin-right: 10px;
+  margin-right: 15px;
   flex-shrink: 0;
+}
+
+.projects section:hover {
+  /* width: 400px;
+  height: 520px; */
+  background: #55E6A5;
+  
+  /* position: relative;
+  margin-right: 15px;
+  flex-shrink: 0; */
 }
 
 .projects span {
@@ -190,6 +200,13 @@ footer {
 
 .posha {
   background: url('images/Posha-Account.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ulist {
+  background: url('images/Ulist.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
