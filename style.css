@@ -131,13 +131,7 @@ header {
 }
 
 .projects section:hover {
-  /* width: 400px;
-  height: 520px; */
   background: #55E6A5;
-  
-  /* position: relative;
-  margin-right: 15px;
-  flex-shrink: 0; */
 }
 
 .projects span {
@@ -148,6 +142,22 @@ header {
   font-size: 14px;
   color: #181818;
   padding: 2px 15px;
+}
+
+.projects div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #55E6A5;
+  padding: 15px 20px 0 20px;
+}
+
+.projects a {
+  display: block;
+  font-family: 'AvertaStd-Bold';
+  font-size: 14px;
+  color: #181818;
+  margin-bottom: 15px;
 }
 
 .scroll {
@@ -177,7 +187,11 @@ footer {
   font-size: 14px;
 }
 
-.migas {
+.migas,
+.storytime,
+.studybuddy,
+.posha,
+.ulist {
   background: url('images/MiGasScreens.svg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -186,9 +200,6 @@ footer {
 
 .storytime {
   background: url('images/Storytime.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .studybuddy {
@@ -200,9 +211,6 @@ footer {
 
 .posha {
   background: url('images/Posha-Account.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .ulist {
