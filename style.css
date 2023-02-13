@@ -111,7 +111,7 @@ header {
   font-family: 'AvertaStd-Regular';
   font-size: 16px;
   line-height: 30px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
 }
 
 .projects {
@@ -182,7 +182,7 @@ footer {
   background: rgba(255, 255, 255, 0.05);
   padding: 30px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
   font-family: 'AvertaStd-Regular';
   font-size: 14px;
 }
