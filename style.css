@@ -21,23 +21,22 @@ body {
 }
 
 nav {
-  width: 100%;
+  width: 75%;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   margin: 40px auto 100px;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 35px;
-  color: rgba(255, 255, 255, 0.6);
+nav a {
+  font-weight: bold;
+  color: #55E6A5;
+  margin-left: 30px;
   text-decoration: none;
 }
 
-.logo span {
-  color: #55E6A5;
+nav a.active {
+  text-decoration: underline;
 }
 
 .button {
@@ -59,11 +58,16 @@ nav {
   margin-left: 10px;
 }
 
-header {
+header,
+main {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   gap: 50px;
+}
+
+main {
+  margin-top: 100px;
 }
 
 .profile {
@@ -73,6 +77,13 @@ header {
   background: #181818;
   width: 30%;
   padding: 15px 0;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
 }
 
 .prof {
@@ -116,65 +127,6 @@ header {
   color: rgba(255, 255, 255, 1);
 }
 
-.projects {
-  width: 100%;
-  display: flex;
-  overflow-x: auto;
-  margin-bottom: 100px;
-}
-
-.projects section {
-  width: 400px;
-  height: 520px;
-  border: 2px solid #55E6A5;
-  position: relative;
-  margin-right: 15px;
-  flex-shrink: 0;
-}
-
-.projects span {
-  position: absolute;
-  color: #181818;
-  background: #55E6A5;
-  font-size: 14px;
-  font-weight: bold;
-  color: #181818;
-  padding: 2px 15px;
-}
-
-.projects div {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: #55E6A5;
-  padding: 15px 20px 0 20px;
-}
-
-.projects a {
-  display: block;
-  font-size: 14px;
-  color: #181818;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-
-.scroll {
-  display: flex;
-  margin-bottom: 20px;
-  justify-content: end;
-}
-
-.scroll a {
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  color: #55E6A5;
-}
-
-.scroll img {
-  margin-left: 5px;
-}
-
 footer {
   background: rgba(255, 255, 255, 0.05);
   padding: 30px;
@@ -214,4 +166,33 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+h2 {
+  color:rgba(255, 255, 255, 1);
+  text-decoration: underline;
+}
+
+.my-products {
+  width: 45%;
+}
+
+.project-links {
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 50px;
+  gap: 40px;
+}
+
+.project-links a {
+  color: #55E6A5;
+  font-weight: bold;
+}
+
+.project {
+  height: 300px;
+  border: 3px solid #55E6A5;
+  position: relative;
+  margin-bottom: 30px;
+  flex-shrink: 0;
 }
