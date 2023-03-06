@@ -74,16 +74,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #181818;
   width: 30%;
   padding: 15px 0;
-}
-
-.side {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 30%;
 }
 
 .prof {
@@ -93,9 +85,7 @@ main {
 .social {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   margin: 20px 0 30px;
-  padding-bottom: 20px;
 }
 
 .social a { 
@@ -162,7 +152,7 @@ footer {
 }
 
 .ulist {
-  background: url('images/Ulist.svg');
+  background: url('images/ulist-mobile.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -170,7 +160,6 @@ footer {
 
 h2 {
   color:rgba(255, 255, 255, 1);
-  text-decoration: underline;
 }
 
 .my-products {
@@ -178,10 +167,10 @@ h2 {
 }
 
 .project-links {
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   margin-bottom: 50px;
-  gap: 40px;
+  gap: 20px;
 }
 
 .project-links a {
@@ -189,9 +178,14 @@ h2 {
   font-weight: bold;
 }
 
+.project-links a.case {
+  color: #181818;
+  font-weight: bold;
+  background: #55E6A5;
+}
+
 .project {
-  height: 300px;
-  border: 3px solid #55E6A5;
+  height: 320px;
   position: relative;
   margin-bottom: 30px;
   flex-shrink: 0;
