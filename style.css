@@ -166,6 +166,7 @@ footer {
 
 h1, h2, h3, h4 {
   color:rgba(255, 255, 255, 1);
+  color: #55E6A5;
 }
 
 .my-products {
@@ -200,4 +201,7 @@ h1, h2, h3, h4 {
 .project-summary {
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #55E6A5;
+  border-bottom: 1px solid #55E6A5;
+  margin: 50px 0;
 }
