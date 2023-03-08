@@ -216,3 +216,30 @@ h1, h2, h3, h4 {
   border-bottom: 1px solid #55E6A5;
   margin: 50px 0;
 }
+
+.presentation {
+  text-align: center;
+}
+
+.presentation img {
+  width: 100%;
+}
+
+.side-nav {
+  width: 20%;
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  line-height: 2.5;
+  position: fixed;
+  font-size: 0.9em;
+}
+
+.side-nav a  {
+  text-decoration: none;
+  color: #55E6A5;
+}
