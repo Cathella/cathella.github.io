@@ -76,7 +76,7 @@ main {
   margin-top: 100px;
 }
 
-.profile {
+.profile, .resume-sect {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -215,6 +215,13 @@ h1, h2, h3, h4 {
   border-top: 1px solid #55E6A5;
   border-bottom: 1px solid #55E6A5;
   margin: 50px 0;
+  font-size: 0.85em;
+  color: white;
+}
+
+.project-summary p {
+  font-weight: bold;
+  color: #55E6A5;
 }
 
 .presentation {
@@ -243,3 +250,50 @@ h1, h2, h3, h4 {
   text-decoration: none;
   color: #55E6A5;
 }
+
+@media screen and (max-width: 1140px) {
+  .container {
+    width: 100%;
+  }
+
+  header, main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .side-nav {
+    display: none;
+  }
+
+  .my-products, .about {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .my-products, .about {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .project-links {
+    flex-direction: column;
+  }
+
+  .project-summary {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #55E6A5;
+    border-bottom: 1px solid #55E6A5;
+    margin: 50px 0;
+    font-size: 0.85em;
+    color: white;
+
+    flex-direction: column;
+  }
+}
+
