@@ -164,6 +164,13 @@ footer {
   background-position: center center;
 }
 
+.ulist-wireframe {
+  background: url('images/ulist-wireframe.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 h1, h2, h3, h4 {
   color:rgba(255, 255, 255, 1);
   color: #55E6A5;
@@ -171,6 +178,10 @@ h1, h2, h3, h4 {
 
 .my-products {
   width: 45%;
+}
+
+.product {
+  margin-bottom: 100px;
 }
 
 .project-links {
