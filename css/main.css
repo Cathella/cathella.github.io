@@ -44,8 +44,7 @@ main {
   text-decoration-color: #FFECB1;
 }
 
-.about a:hover,
-.links a:hover {
+.about a:hover {
   background: #FFECB1;
   color: #9DB1AA;
 }
@@ -57,9 +56,8 @@ main {
 }
 
 .links a {
-  color: #FFFFFF;
-  text-decoration: overline;
-  text-decoration-color: #FFECB1;
+  color: #FFECB1;
+  text-decoration: none;
 }
 
 .socials {
@@ -80,7 +78,7 @@ main {
   display: flex;
   padding: 10px 45px;
   color: #9DB1AA;
-  background: #FFECB1;
+  background: #FFFFFF;
   text-decoration: none;
   font-size: 20px;
 }
