@@ -42,7 +42,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-size: 25px;
+  font-size: 27px;
 }
 
 .about a {
@@ -73,8 +73,10 @@ h1 {
 .socials {
   display: flex;
   gap: 30px;
-  font-size: 16px;
+  font-size: 18px;
   align-items: center;
+  border-top: 1px solid #FFFFFF;
+  padding-top: 30px;
 }
 
 .socials a {
@@ -84,6 +86,10 @@ h1 {
   text-decoration: none;
 }
 
+.socials a:hover {
+  color: #FFECB1;
+}
+
 .btn {
   display: flex;
   padding: 10px 45px;
@@ -91,6 +97,11 @@ h1 {
   background: #FFFFFF;
   text-decoration: none;
   font-size: 20px;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 2px solid #FFFFFF;
 }
 
 a {
@@ -110,6 +121,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  font-size: 20px;
 }
 
 @media (max-width: 575.98px) {
@@ -135,6 +147,6 @@ footer {
   }
 }
 
-@media (max-width: 1199.98px) {}
+/* @media (max-width: 1199.98px) {} */
 
-@media (max-width: 1399.98px) {}
+/* @media (max-width: 1399.98px) {} */
