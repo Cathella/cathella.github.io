@@ -124,6 +124,54 @@ footer {
   font-size: 20px;
 }
 
+form,
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  gap: 30px;
+}
+
+form div {
+  gap: 20px;
+}
+
+label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+input,
+textarea {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  outline: none;
+  color: #FFFFFF;
+}
+
+button {
+  border: none;
+  background: #FFFFFF;
+  font-size: 18px;
+  color: #9DB1AA;
+  padding: 12px 45px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFECB1;
+}
+
+.send-btn {
+  flex-direction: row;
+}
+
 @media (max-width: 575.98px) {
   .links {
     font-size: 16px;
