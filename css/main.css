@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quando', serif;
+}
+
+body {
+  background: #9DB1AA;
+  color: #FFFFFF;
+}
+
+nav {
+  height: 60px;
+  background-image: url(../img/shapes-top.svg);
+  background-image: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 70%;
+  margin: 100px auto;
+}
+
+.initials {
+  font-size: 70px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.about a {
+  text-decoration: overline;
+  text-decoration-color: #FFECB1;
+}
+
+.about a:hover,
+.links a:hover {
+  background: #FFECB1;
+  color: #9DB1AA;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.links a {
+  color: #FFFFFF;
+  text-decoration: overline;
+  text-decoration-color: #FFECB1;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  align-items: center;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  padding: 10px 45px;
+  color: #9DB1AA;
+  background: #FFECB1;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+footer {
+  height: 60px;
+  background-image: url(../img/shapes-bot.svg);
+  background-image: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .about {
+    font-size: 25px;
+  }
+
+  .links {
+    font-size: 16px;
+  }
+}
+
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  main {
+    width: 90%;
+  }
+}
+
+ /* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .about span {
+    line-height: 1.8;
+  }
+
+  .socials {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
