@@ -13,30 +13,36 @@ body {
 }
 
 nav {
-  height: 60px;
+  height: 100px;
   background-image: url(../img/shapes-top.svg);
   background-image: cover;
   background-position: bottom;
   background-repeat: no-repeat;
 }
 
+header {
+  width: 70%;
+  margin: 40px auto;
+}
+
 main {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
   width: 70%;
-  margin: 100px auto;
+  margin: 100px auto 150px;
 }
 
-.initials {
-  font-size: 70px;
+.initials,
+h1 {
+  font-size: 60px;
 }
 
 .about {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .about a {
@@ -52,12 +58,16 @@ main {
 .links {
   display: flex;
   gap: 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .links a {
-  color: #FFECB1;
   text-decoration: none;
+}
+
+.links a.active {
+  text-decoration: overline;
+  color: #FFECB1;
 }
 
 .socials {
@@ -88,33 +98,32 @@ a {
 }
 
 footer {
-  height: 60px;
+  height: 100px;
   background-image: url(../img/shapes-bot.svg);
   background-image: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
 
+.about ol {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .about {
-    font-size: 25px;
-  }
-
   .links {
     font-size: 16px;
   }
 }
 
- /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   main {
     width: 90%;
   }
 }
 
- /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .about span {
     line-height: 1.8;
@@ -126,8 +135,6 @@ footer {
   }
 }
 
- /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {}
 
- /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
