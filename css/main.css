@@ -172,14 +172,72 @@ button:hover {
   flex-direction: row;
 }
 
+.project-heading {
+  font-size: 35px;
+  /* text-decoration: underline; */
+}
+
+.project-heading span {
+  color: #FFECB1;
+  font-size: 25px;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  gap: 10px;
+}
+
+.project-img img {
+  height: 450px;
+}
+
+.heading {
+  text-decoration: underline;
+  line-height: 2.5;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.case {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.case-section ol{
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 40px 0 0 50px;
+}
+
 @media (max-width: 575.98px) {
   .links {
     font-size: 16px;
   }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .about {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 767.98px) {
-  main {
+  main,
+  header {
     width: 90%;
   }
 }
