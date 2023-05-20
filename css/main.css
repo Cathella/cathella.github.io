@@ -201,7 +201,7 @@ button:hover {
 
 .heading {
   text-decoration: underline;
-  line-height: 2.5;
+  color: #FFECB1;
 }
 
 .description {
@@ -215,10 +215,27 @@ button:hover {
   gap: 70px;
 }
 
+.case-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
 .case-section ol{
   font-size: 18px;
   line-height: 1.8;
-  margin: 40px 0 0 50px;
+  margin: 0 0 0 50px;
+}
+
+.inner-section {
+  margin: 25px 0 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.inner-section h2 {
+  font-size: 20px;
 }
 
 @media (max-width: 575.98px) {
