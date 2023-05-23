@@ -238,6 +238,40 @@ button:hover {
   font-size: 20px;
 }
 
+table {
+  border: 1px solid #FFFFFF;
+}
+
+table th {
+  background: #FFFFFF;
+  color: #9DB1AA;
+  text-align: left;
+  padding: 12px 7px;
+}
+
+table td {
+  border-bottom: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 10px;line-height: 2;
+}
+
+tr td:last-child {
+  border-right: none;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table ul {
+  padding-left: 20px;
+  line-height: 2;
+}
+
+.case-section img {
+  width: 100%;
+}
+
 @media (max-width: 575.98px) {
   .links {
     font-size: 16px;
