@@ -272,6 +272,10 @@ table ul {
   width: 100%;
 }
 
+.project-show img {
+  width: 100%;
+}
+
 @media (max-width: 575.98px) {
   .links {
     font-size: 16px;
