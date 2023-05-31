@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quando', serif;
+}
+
+body {
+  background: #9DB1AA;
+  color: #FFFFFF;
+}
+
+nav {
+  height: 100px;
+  background-image: url(../img/shapes-top.svg);
+  background-image: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 70%;
+  margin: 40px auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 70%;
+  margin: 100px auto 150px;
+}
+
+.initials,
+h1 {
+  font-size: 60px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 27px;
+}
+
+.about a {
+  text-decoration: overline;
+  text-decoration-color: #FFECB1;
+}
+
+.about a:hover {
+  background: #FFECB1;
+  color: #9DB1AA;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links a.active {
+  text-decoration: overline;
+  color: #FFECB1;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  align-items: center;
+  border-top: 1px solid #FFFFFF;
+  padding-top: 30px;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: #FFECB1;
+}
+
+.btn {
+  display: flex;
+  padding: 10px 45px;
+  color: #9DB1AA;
+  background: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 2px solid #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+footer {
+  height: 100px;
+  background-image: url(../img/shapes-bot.svg);
+  background-image: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.about ol {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 20px;
+}
+
+form,
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  gap: 30px;
+}
+
+form div {
+  gap: 20px;
+}
+
+label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+input,
+textarea {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  outline: none;
+  color: #FFFFFF;
+}
+
+button {
+  border: none;
+  background: #FFFFFF;
+  font-size: 18px;
+  color: #9DB1AA;
+  padding: 12px 45px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFECB1;
+}
+
+.send-btn {
+  flex-direction: row;
+}
+
+.project-heading {
+  font-size: 35px;
+  /* text-decoration: underline; */
+}
+
+.project-heading span {
+  color: #FFECB1;
+  font-size: 25px;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  gap: 10px;
+}
+
+.project-img img {
+  height: 450px;
+}
+
+.heading {
+  text-decoration: underline;
+  color: #FFECB1;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.case {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.case-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.case-section ol{
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0 0 0 50px;
+}
+
+.inner-section {
+  margin: 25px 0 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.inner-section h2 {
+  font-size: 20px;
+}
+
+table {
+  border: 1px solid #FFFFFF;
+}
+
+table th {
+  background: #FFFFFF;
+  color: #9DB1AA;
+  text-align: left;
+  padding: 12px 7px;
+}
+
+table td {
+  border-bottom: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 10px;line-height: 2;
+}
+
+tr td:last-child {
+  border-right: none;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table ul {
+  padding-left: 20px;
+  line-height: 2;
+}
+
+.case-section img {
+  width: 100%;
+}
+
+.project-show img {
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .links {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .about {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  main,
+  header {
+    width: 90%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .about span {
+    line-height: 1.8;
+  }
+
+  .socials {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* @media (max-width: 1199.98px) {} */
+
+/* @media (max-width: 1399.98px) {} */
