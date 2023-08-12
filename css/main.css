@@ -45,6 +45,12 @@ h1 {
   font-size: 27px;
 }
 
+.open {
+  display: inline-block;
+  margin-top: 40px;
+  color: #FFECB1;
+}
+
 .about a {
   text-decoration: overline;
   text-decoration-color: #FFECB1;
@@ -270,6 +276,12 @@ table ul {
 
 .case-section img {
   width: 100%;
+}
+
+.project-show {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
 }
 
 .project-show img {
