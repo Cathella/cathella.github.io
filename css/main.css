@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Quando&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Quando', serif;
+  /* font-family: 'Quando', serif; */
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
-  background: #9DB1AA;
-  color: #FFFFFF;
+  /* background: #9DB1AA; */
+  /* color: #FFFFFF; */
+}
+
+.logo img {
+  height: 50px;
 }
 
 nav {
@@ -21,6 +27,9 @@ nav {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 70%;
   margin: 40px auto;
 }
@@ -48,17 +57,17 @@ h1 {
 .open {
   display: inline-block;
   margin-top: 40px;
-  color: #FFECB1;
+  /* color: #FFECB1; */
 }
 
 .about a {
   text-decoration: overline;
-  text-decoration-color: #FFECB1;
+  /* text-decoration-color: #FFECB1; */
 }
 
 .about a:hover {
   background: #FFECB1;
-  color: #9DB1AA;
+  /* color: #9DB1AA; */
 }
 
 .links {
@@ -73,7 +82,7 @@ h1 {
 
 .links a.active {
   text-decoration: overline;
-  color: #FFECB1;
+  /* color: #FFECB1; */
 }
 
 .socials {
@@ -81,7 +90,7 @@ h1 {
   gap: 30px;
   font-size: 18px;
   align-items: center;
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid #252525;
   padding-top: 30px;
 }
 
@@ -90,17 +99,18 @@ h1 {
   align-items: center;
   gap: 10px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .socials a:hover {
-  color: #FFECB1;
+  background: #FFECB1;
 }
 
 .btn {
   display: flex;
   padding: 10px 45px;
-  color: #9DB1AA;
-  background: #FFFFFF;
+  /* color: #9DB1AA; */
+  background: #FFECB1;
   text-decoration: none;
   font-size: 20px;
 }
@@ -111,15 +121,15 @@ h1 {
 }
 
 a {
-  color: #FFFFFF;
+  color: #252525;
 }
 
 footer {
   height: 100px;
-  background-image: url(../img/shapes-bot.svg);
+  /* background-image: url(../img/shapes-bot.svg);
   background-image: cover;
   background-position: top;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .about ol {
@@ -184,7 +194,7 @@ button:hover {
 }
 
 .project-heading span {
-  color: #FFECB1;
+  /* color: #FFECB1; */
   font-size: 25px;
 }
 
@@ -207,7 +217,7 @@ button:hover {
 
 .heading {
   text-decoration: underline;
-  color: #FFECB1;
+  /* color: #FFECB1; */
 }
 
 .description {
