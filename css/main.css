@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Quando', serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
-  background: #9DB1AA;
-  color: #FFFFFF;
+  color: #252525;
+}
+
+.logo img {
+  height: 50px;
 }
 
 nav {
@@ -21,6 +24,9 @@ nav {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 70%;
   margin: 40px auto;
 }
@@ -28,37 +34,65 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  gap: 50px;
   width: 70%;
   margin: 100px auto 150px;
 }
 
-.initials,
 h1 {
   font-size: 60px;
 }
 
 .about {
+  margin: 70px 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
   font-size: 27px;
+  line-height: 1.8;
 }
 
 .open {
-  display: inline-block;
-  margin-top: 40px;
-  color: #FFECB1;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 15px;
+  color: rgb(31, 205, 34);
+  font-size: 18px;
 }
 
 .about a {
   text-decoration: overline;
-  text-decoration-color: #FFECB1;
 }
 
 .about a:hover {
   background: #FFECB1;
-  color: #9DB1AA;
+}
+
+.vibrate {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgb(31, 205, 34);
+  transform: scale(1);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 1);
+  animation: anim-vibrate 2s infinite;
+}
+
+@keyframes anim-vibrate {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(31, 205, 34, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0.6rem rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 
 .links {
@@ -73,16 +107,16 @@ h1 {
 
 .links a.active {
   text-decoration: overline;
-  color: #FFECB1;
+  /* color: #FFECB1; */
 }
 
 .socials {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   font-size: 18px;
   align-items: center;
-  border-top: 1px solid #FFFFFF;
-  padding-top: 30px;
+  border-top: 1px solid #252525;
+  padding-top: 40px;
 }
 
 .socials a {
@@ -90,44 +124,27 @@ h1 {
   align-items: center;
   gap: 10px;
   text-decoration: none;
-}
-
-.socials a:hover {
-  color: #FFECB1;
+  font-weight: bold;
 }
 
 .btn {
   display: flex;
   padding: 10px 45px;
-  color: #9DB1AA;
-  background: #FFFFFF;
+  background: #FFECB1;
   text-decoration: none;
   font-size: 20px;
 }
 
 .btn:hover {
-  background: transparent;
-  border: 2px solid #FFFFFF;
+  background: white
 }
 
 a {
-  color: #FFFFFF;
+  color: #252525;
 }
 
 footer {
   height: 100px;
-  background-image: url(../img/shapes-bot.svg);
-  background-image: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-.about ol {
-  margin-left: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  font-size: 20px;
 }
 
 form,
@@ -138,6 +155,7 @@ form div {
 
 form {
   gap: 30px;
+  margin-top: 60px;
 }
 
 form div {
@@ -146,7 +164,7 @@ form div {
 
 label {
   font-size: 14px;
-  color: #FFFFFF;
+  color: #252525;
 }
 
 input,
@@ -154,24 +172,25 @@ textarea {
   border: none;
   background: transparent;
   font-size: 20px;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #252525;
   outline: none;
-  color: #FFFFFF;
+  color: #252525;
 }
 
 button {
   border: none;
-  background: #FFFFFF;
+  background: #FFECB1;
   font-size: 18px;
-  color: #9DB1AA;
+  color: #252525;
   padding: 12px 45px;
+  font-weight: bold;
   cursor: pointer;
 }
 
 button:hover {
-  background: transparent;
-  border: 2px solid #FFFFFF;
-  color: #FFECB1;
+  background: white;
+  border: 1px solid #252525;
+  /* color: #FFECB1; */
 }
 
 .send-btn {
@@ -180,11 +199,9 @@ button:hover {
 
 .project-heading {
   font-size: 35px;
-  /* text-decoration: underline; */
 }
 
 .project-heading span {
-  color: #FFECB1;
   font-size: 25px;
 }
 
@@ -207,7 +224,6 @@ button:hover {
 
 .heading {
   text-decoration: underline;
-  color: #FFECB1;
 }
 
 .description {
@@ -227,53 +243,6 @@ button:hover {
   gap: 25px;
 }
 
-.case-section ol{
-  font-size: 18px;
-  line-height: 1.8;
-  margin: 0 0 0 50px;
-}
-
-.inner-section {
-  margin: 25px 0 0 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.inner-section h2 {
-  font-size: 20px;
-}
-
-table {
-  border: 1px solid #FFFFFF;
-}
-
-table th {
-  background: #FFFFFF;
-  color: #9DB1AA;
-  text-align: left;
-  padding: 12px 7px;
-}
-
-table td {
-  border-bottom: 1px solid #FFFFFF;
-  border-right: 1px solid #FFFFFF;
-  padding: 10px;line-height: 2;
-}
-
-tr td:last-child {
-  border-right: none;
-}
-
-table tr:last-child td {
-  border-bottom: none;
-}
-
-table ul {
-  padding-left: 20px;
-  line-height: 2;
-}
-
 .case-section img {
   width: 100%;
 }
@@ -288,7 +257,25 @@ table ul {
   width: 100%;
 }
 
+.mt-5 {
+  margin-top: 80px;
+}
+
 @media (max-width: 575.98px) {
+  .project-heading {
+    font-size: 25px;
+  }
+  
+  .project-heading span {
+    font-size: 18px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
   .links {
     font-size: 16px;
   }
@@ -319,7 +306,3 @@ table ul {
     align-items: flex-start;
   }
 }
-
-/* @media (max-width: 1199.98px) {} */
-
-/* @media (max-width: 1399.98px) {} */
