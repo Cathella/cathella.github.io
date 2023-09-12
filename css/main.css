@@ -199,11 +199,9 @@ button:hover {
 
 .project-heading {
   font-size: 35px;
-  /* text-decoration: underline; */
 }
 
 .project-heading span {
-  /* color: #FFECB1; */
   font-size: 25px;
 }
 
@@ -226,7 +224,6 @@ button:hover {
 
 .heading {
   text-decoration: underline;
-  /* color: #FFECB1; */
 }
 
 .description {
@@ -308,6 +305,20 @@ table ul {
 }
 
 @media (max-width: 575.98px) {
+  .project-heading {
+    font-size: 25px;
+  }
+  
+  .project-heading span {
+    font-size: 18px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
   .links {
     font-size: 16px;
   }
