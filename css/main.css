@@ -61,7 +61,8 @@ h1 {
 }
 
 .about a {
-  text-decoration: overline;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .about a:hover {
@@ -106,8 +107,8 @@ h1 {
 }
 
 .links a.active {
-  text-decoration: overline;
-  /* color: #FFECB1; */
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .socials {
@@ -129,14 +130,15 @@ h1 {
 
 .btn {
   display: flex;
-  padding: 10px 45px;
+  padding: 14px 45px;
   background: #FFECB1;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .btn:hover {
-  background: white
+  background: white;
+  border: 1px solid #252525;
 }
 
 a {
@@ -259,6 +261,10 @@ button:hover {
 
 .mt-5 {
   margin-top: 80px;
+}
+
+.mb-5 {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 575.98px) {
