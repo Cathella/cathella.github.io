@@ -108,7 +108,6 @@ h1 {
 }
 
 .links a:hover {
-  /* transform: translateX(-20px) rotate(-3deg); */
   text-decoration: underline;
 }
 
@@ -211,11 +210,7 @@ button:hover {
 }
 
 .project-heading {
-  font-size: 35px;
-}
-
-.project-heading span {
-  font-size: 25px;
+  font-size: 45px;
 }
 
 .project-img {
@@ -276,6 +271,26 @@ button:hover {
 
 .mb-5 {
   margin-bottom: 50px;
+}
+
+.pjt-info {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pjt-info div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pjt-info div span {
+  font-size: 15px;
+  color: #858EA0;
 }
 
 @media (max-width: 575.98px) {
