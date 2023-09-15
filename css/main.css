@@ -13,6 +13,7 @@ body {
 
 .logo img {
   height: 50px;
+  transform: translateX(-20px) rotate(-3deg);
 }
 
 nav {
@@ -98,12 +99,16 @@ h1 {
 
 .links {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   font-size: 18px;
 }
 
 .links a {
   text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
 
 .links a.active {
@@ -126,6 +131,11 @@ h1 {
   gap: 10px;
   text-decoration: none;
   font-weight: bold;
+}
+
+.socials a:hover {
+  border-bottom: 2px solid #252525;
+  /* transform: translateX(-20px) rotate(-3deg); */
 }
 
 .btn {
@@ -165,7 +175,7 @@ form div {
 }
 
 label {
-  font-size: 14px;
+  /* font-size: 14px; */
   color: #252525;
 }
 
@@ -200,11 +210,7 @@ button:hover {
 }
 
 .project-heading {
-  font-size: 35px;
-}
-
-.project-heading span {
-  font-size: 25px;
+  font-size: 45px;
 }
 
 .project-img {
@@ -265,6 +271,26 @@ button:hover {
 
 .mb-5 {
   margin-bottom: 50px;
+}
+
+.pjt-info {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pjt-info div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pjt-info div span {
+  font-size: 15px;
+  color: #858EA0;
 }
 
 @media (max-width: 575.98px) {
