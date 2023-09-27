@@ -363,6 +363,10 @@ button:hover {
     line-height: 35px;
     padding: 40px 40px;
   }
+
+  .items-img img {
+    width: 70%;
+  }
 }
 
 @media (max-width: 767.98px) {
