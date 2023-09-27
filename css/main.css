@@ -9,6 +9,7 @@
 
 body {
   color: #252525;
+  background-color: #FFFFFF;
 }
 
 .logo img {
@@ -362,6 +363,10 @@ button:hover {
     font-size: 20px;
     line-height: 35px;
     padding: 40px 40px;
+  }
+
+  .items-img {
+    text-align: center;
   }
 
   .items-img img {
