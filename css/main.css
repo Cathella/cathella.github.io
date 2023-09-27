@@ -39,7 +39,7 @@ main {
   margin: 100px auto 150px;
 }
 
-h1 {
+h1, .h1 {
   font-size: 60px;
 }
 
@@ -342,7 +342,7 @@ button:hover {
     font-size: 16px;
   }
 
-  h1 {
+  h1, .h1 {
     font-size: 40px;
   }
 
@@ -352,6 +352,10 @@ button:hover {
 
   .app-flex {
     flex-direction: column;
+  }
+
+  .second .items:nth-child(2){
+    order: -1;
   }
 
   .problem-define {
