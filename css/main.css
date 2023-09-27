@@ -261,6 +261,21 @@ button:hover {
   flex-direction: column;
 }
 
+.problem-define {
+  background-color: #E0DBFC;
+  font-size: 20px;
+  color: #252525;
+  line-height: 40px;
+  font-weight: bold;
+  padding: 40px 65px;
+  border-radius: 30px;
+}
+
+.problem-define span {
+  color: #6D3EF2;
+  text-decoration: underline;
+}
+
 .project-show img {
   width: 100%;
 }
@@ -337,6 +352,12 @@ button:hover {
 
   .app-flex {
     flex-direction: column;
+  }
+
+  .problem-define {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 40px 40px;
   }
 }
 
