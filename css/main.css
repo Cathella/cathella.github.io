@@ -214,23 +214,6 @@ button:hover {
   font-size: 45px;
 }
 
-.project-img {
-  width: 100%;
-  height: auto;
-  background: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-  font-size: 14px;
-  gap: 10px;
-}
-
-.project-img img {
-  height: 450px;
-}
-
 .heading {
   text-decoration: underline;
 }
@@ -270,6 +253,53 @@ button:hover {
   font-weight: bold;
   padding: 40px 65px;
   border-radius: 30px;
+}
+
+.home-project {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.home-project div {
+  flex: 1;
+}
+
+.display-img {
+  padding: 45px 0;
+  background: #FFECB1;
+  text-align: center;
+}
+
+.display-img img {
+  width: 55%;
+}
+
+.pjt-cta {
+  display: flex;
+  gap: 20px;
+}
+
+.pjt-cta a {
+  display: inline-block;
+  font-size: 18px;
+  background-color: #6D3EF2;
+  color: #FFFFFF;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.pjt-cta a.live {
+  color: #252525;
+  background: #FFECB1;
 }
 
 .problem-define span {
@@ -322,6 +352,16 @@ button:hover {
 
 .items-desc {
   flex: 2;
+}
+
+@media (max-width: 478px) {
+  .pjt-cta {
+    flex-direction: column;
+  }
+
+  .display-img img {
+    width: 60%;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -393,5 +433,15 @@ button:hover {
 
   .app-flex {
     gap: 30px;
+  }
+}
+
+@media (max-width: 1298px ) {
+  .home-project {
+    flex-direction: column;
+  }
+
+  .display-img img {
+    width: 40%;
   }
 }
