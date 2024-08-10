@@ -1,96 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nakitto's Portfolio</title>
-  <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nakitto's Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <nav></nav>
-
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <img src="img/nakitto-logo-dark.png" alt="">
-      </a>
-    </div>
-    <div class="links">
-      <a class="active" href="index.html">Projects</a>
-      <a href="img/Nakitto_Catherine_Resume.pdf" target="_blank">Resume</a>
-      <a href="contact.html">Contact</a>
-    </div>
+  <header class="flex flex-wrap gap-10 justify-between items-center px-24 mt-4 w-full text-neutral-800 max-md:px-5 max-md:max-w-full">
+    <h1 class="self-stretch my-auto text-4xl font-bold">NC.</h1>
+    <nav class="flex gap-6 items-center self-stretch pr-14 pl-2 my-auto text-base leading-8 bg-blue-200 min-h-[64px] min-w-[240px] rounded-full max-md:pr-5">
+      <ul class="flex gap-6 justify-center items-center self-stretch my-2 min-w-[240px]">
+        <li>
+          <a href="#portfolio" class="inline-block self-stretch px-8 my-auto py-2 font-bold whitespace-nowrap bg-white rounded-3xl min-h-[52px] max-md:px-5">Portfolio</a>
+        </li>
+        <li>
+          <a href="#about" class="self-stretch my-auto">About me</a>
+        </li>
+        <li>
+          <a href="#projects" class="self-stretch my-auto">My projects</a>
+        </li>
+        <li>
+          <a href="#hire" class="self-stretch my-auto">Hire me</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <h1>I'm Nakitto👋</h1>
-    <span class="open mb-5">
-      <div class="vibrate"></div>
-      <div>
-        Open to work
-      </div>
-    </span>
-    <div class="description mb-5">
-      I am a <a href="#">UI/UX</a> Designer with a <a href="#">React</a> & <a href="#">Rails</a> Development background.
-      My passion for crafting and coding fuels my constant curiosity in exploring the digital realm. <br/><br />
-      All my design projects are about solving problems aiming to make people's lives better.
-      </span>
-      <span>
-        I believe that everything you can imagine is possible when you have 
-        clearly defined user goals and a strong design strategy.
-      </span>
-    </div>
-    <h2 class="h1 mb-5">Projects</h2>
-    <div class="home-project">
-      <div class="display-img">
-        <img src="img/schoolist-getstarted.png" alt="">
-      </div>
-      <div class="showcase">
-        <h2 class="heading">
-          1. Seamless School Shopping and Delivery for Busy Parents.
-        </h2>
-        <div class="description">
-          Schoolist provides a seamless and convenient solution for busy parents to shop for school requirements. 
-          By streamlining the entire school shopping experience, Schoolist saves parents valuable time and effort, 
-          enabling them to focus on other responsibilities while ensuring their children have all the necessary 
-          supplies for a successful academic year.
-        </div>
-        <div class="pjt-cta">
-          <a href="projects/schoolist.html">Read Case Study</a>
-          <a class="live" href="#">Live Project Link</a>
+  <section class="flex gap-10 justify-between items-center mt-20 px-24">
+    <div class="flex flex-col self-stretch my-auto text-neutral-800">
+      <div class="flex flex-col items-start w-full max-w-[400px]">
+        <h1 class="flex flex-col max-w-full text-5xl w-[300px] max-md:text-4xl gap-4">
+          <span class="max-md:text-4xl">Hi, I am</span>
+          <span class="flex gap-2 items-center self-start whitespace-nowrap max-md:text-4xl">
+            Catherine
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0022f44004d1f8fe46a4e5431539fa07102dff53cf26defa3102cb73d2e34fa5?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" alt="" class="object-contain shrink-0 self-stretch my-auto w-9 aspect-square" />
+          </span>
+        </h1>
+        <p class="self-stretch mt-6 text-base leading-8 w-4/5">
+          I am a UI/UX Designer with a React & Rails Development background. All my design work is about solving problems aiming to make people's lives better.
+        </p>
+        <div class="flex gap-2 items-center mt-10 leading-loose">
+          <p class="self-stretch my-auto underline font-bold">Scroll to see projects</p>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f9b6bd6e68123147f190ab7c565f8347af5dcfdbe6251d6b0684fba8f1030636?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" alt="Scroll down arrow" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[51px]" />
         </div>
       </div>
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b230231112761b54dda178a5a50ef9d0fae0c404a0ab5ce9bd3ddb35e24618f3?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" alt="Decorative element" class="mt-10" width="150" />
     </div>
-    <div class="socials">
-      <a href="contact.html" class="btn">Lets talk</a>
-      <a href="https://github.com/Cathella" target="_blank">
-        <span><img src="img/github.svg" alt=""></span>
-        <!-- <span>Github</span> -->
-      </a>
-      <a href="https://www.linkedin.com/in/nakitto-catherine2020/" target="_blank">
-        <span><img src="img/linkedin-in.svg" alt=""></span>
-        <!-- <span>LinkedIn</span> -->
-      </a>
-      <a href="https://twitter.com/cathella9" target="_blank">
-        <span><img src="img/twitter.svg" alt=""></span>
-        <!-- <span>Twitter</span> -->
-      </a>
-      <a href="https://dribbble.com/nakittocatherine" target="_blank">
-        <span><img src="img/dribbble.svg" alt=""></span>
-        <!-- <span>Dribbble</span> -->
-      </a>
-      <a href="https://www.behance.net/ncathie" target="_blank">
-        <span><img src="img/behance.svg" alt=""></span>
-        <!-- <span>Behance</span> -->
-      </a>
-      <a href="https://www.youtube.com/@nakittocatherine" target="_blank">
-        <span><img src="img/youtube.svg" alt=""></span>
-        <!-- <span>Youtube</span> -->
-      </a>
-    </div>
-  </main>
+    <article class="flex flex-col justify-center self-stretch my-auto min-w-[240px] w-[700px] max-md:max-w-full">
+      <figure class="flex overflow-hidden flex-col max-w-full bg-stone-50 w-[400px]">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a973a9e931b4a55a8876d515eff4315d62383bc51d381d01705eb6c5e37db6ba?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" alt="Project showcase" class="object-contain w-full aspect-[1.17] max-md:max-w-full" />
+      </figure>
+      <figcaption class="mt-8 text-base leading-8 text-neutral-800 max-md:max-w-full">
+        Case Study: Simplifying the process of tracking companies' employees and their dependents for smooth treatment at affiliated hospitals.
+      </figcaption>
+    </article>
+  </section>
 
-  <footer></footer>
+  <footer class="flex flex-wrap gap-10 justify-between items-center px-24 py-6 mt-20 w-full text-base leading-8 bg-gray-200 text-neutral-800 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <p class="self-stretch my-auto">© 2024</p>
+    <nav class="flex gap-8 items-center self-stretch my-auto whitespace-nowrap">
+      <a href="https://www.linkedin.com/in/nakitto-catherine2020/" class="self-stretch my-auto">LinkedIn</a>
+      <a href="https://github.com/Cathella" class="self-stretch my-auto">Github</a>
+      <a href="https://www.youtube.com/@nakittocatherine" class="self-stretch my-auto">Youtube</a>
+      <a href="https://dribbble.com/nakittocatherine" class="self-stretch my-auto">Dribbble</a>
+    </nav>
+  </footer>
 </body>
 </html>
