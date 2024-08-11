@@ -1,84 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me</title>
-  <link rel="stylesheet" href="css/main.css">
-  <script src="https://formspree.io/js/formspree.min.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nakitto's Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <nav></nav>
-
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <img src="img/nakitto-logo-dark.png" alt="">
-      </a>
-    </div>
-    <div class="links">
-      <a href="index.html">About</a>
-      <!-- <a href="projects.html">Projects</a> -->
-      <a href="img/Nakitto_Catherine_Resume.pdf" target="_blank">Resume</a>
-      <a class="active" href="contact.html">Contact</a>
-    </div>
+  <header class="flex flex-wrap gap-10 justify-between items-center px-24 mt-4 w-full text-neutral-800 max-md:px-5 max-md:max-w-full">
+    <h1 class="self-stretch my-auto text-4xl font-bold">NC.</h1>
+    <nav class="flex gap-6 items-center self-stretch pr-2 pl-14 my-auto text-base leading-8 bg-blue-200 min-h-[64px] min-w-[240px] rounded-full max-md:pr-5">
+      <ul class="flex gap-6 justify-center items-center self-stretch my-2 min-w-[240px]">
+        <li>
+          <a href="index.html" class="self-stretch my-auto">Portfolio</a>
+        </li>
+        <li>
+          <a href="about.html" class="self-stretch my-auto">About me</a>
+        </li>
+        <li>
+          <a href="#projects" class="self-stretch my-auto">My projects</a>
+        </li>
+        <li>
+          <a href="contact.html" class="inline-block self-stretch px-8 my-auto py-2 font-bold whitespace-nowrap bg-white rounded-3xl min-h-[52px] max-md:px-5">Hire me</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <h1>Let's Talk</h1>
-    <div>
-      <div id="my-form-status"></div>
-      
-      <form action="https://formspree.io/f/xpzyygen" method="POST" id="my-form">
-        <div>
-          <label for="email">Your Email</label>
-          <input type="email" name="email" id="email" required>
+  <section class="flex gap-10 justify-between items-center mt-20 px-24">
+    <section class="flex flex-col justify-center leading-8 text-neutral-800">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/14fe679a8613a876ecd3010d1d569cad467de8c02ca923c3a36a899880b1c7c0?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-contain max-w-full rounded-full aspect-square w-[100px]" alt="Profile picture" width="150" />
+      <div class="flex flex-col items-start mt-8 w-full">
+        <p class="self-stretch">I design user-friendly solutions that help startups grow. Let's chat about how we can work together.</p>
+        <a href="#schedule" class="flex gap-2 items-center mt-4 underline font-medium">
+          <span class="self-stretch my-auto">Schedule a call</span>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d2d28587efa49dec930ba1024538951ec5b0cff18dd3892a1e2a0892f5ee7494?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" alt="" />
+        </a>
+        <a href="#resume" class="flex gap-2 items-center mt-4 underline font-medium">
+          <span class="self-stretch my-auto">Download Resume</span>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d2d28587efa49dec930ba1024538951ec5b0cff18dd3892a1e2a0892f5ee7494?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" alt="" />
+        </a>
+      </div>
+    </section>
+    <section class="flex flex-col w-full px-24">
+      <h2 class="text-4xl font-medium text-neutral-800">Contact me</h2>
+      <form class="flex flex-col mt-6 w-full leading-8">
+        <div class="flex flex-col mb-6">
+          <label for="email" class="flex gap-2 items-center self-start text-neutral-800">
+            <span class="self-stretch my-auto">Email address</span>
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bc00640091f45c5c206e6199aad0dcf83318dd4e852d2f78e265bed569a83df?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-contain shrink-0 self-stretch my-auto w-5 aspect-square" alt="" />
+          </label>
+          <input type="email" id="email" name="email" placeholder="Enter email address" class="gap-2.5 self-stretch px-4 py-2 mt-2 w-full bg-white rounded-xl border border-solid border-gray-800 border-opacity-30 min-h-[56px] text-neutral-800" required />
         </div>
-        <div>
-          <label for="email">Your Message</label>
-          <textarea name="message" id="" cols="30" rows="5" required></textarea>
+        <div class="flex flex-col mb-6">
+          <label for="message" class="flex gap-2 items-center self-start whitespace-nowrap text-neutral-800">
+            <span class="self-stretch my-auto">Message</span>
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a62e0b7d60608d111c5109df3fa321b60cf19645e82def175978e63a79a0147c?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-contain shrink-0 self-stretch my-auto w-5 aspect-square" alt="" />
+          </label>
+          <textarea id="message" name="message" placeholder="Enter a message" class="gap-2.5 px-4 pt-2 pb-40 mt-2 w-full bg-white rounded-xl border border-solid border-gray-800 border-opacity-30 min-h-[200px] text-neutral-800 max-md:pb-24" required></textarea>
         </div>
-        <div class="send-btn">
-          <button type="submit" id="my-form-button">Send Message</button>
-        </div>
+        <button type="submit" class="gap-2.5 self-stretch px-4 py-2 mt-6 max-w-full font-bold leading-8 text-white rounded-xl border border-solid bg-gray-800 min-h-[56px] w-[600px]">Send message</button>
       </form>
+    </section>
+  </section>
 
-      <script>
-        var form = document.getElementById("my-form");
-        
-        async function handleSubmit(event) {
-          event.preventDefault();
-          var status = document.getElementById("my-form-status");
-          var data = new FormData(event.target);
-          fetch(event.target.action, {
-            method: form.method,
-            body: data,
-            headers: {
-                'Accept': 'application/json'
-            }
-          }).then(response => {
-            if (response.ok) {
-              status.innerHTML = "Thanks for your submission!";
-              form.reset()
-            } else {
-              response.json().then(data => {
-                if (Object.hasOwn(data, 'errors')) {
-                  status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                } else {
-                  status.innerHTML = "Oops! There was a problem submitting your form"
-                }
-              })
-            }
-          }).catch(error => {
-            status.innerHTML = "Oops! There was a problem submitting your form"
-          });
-        }
-        form.addEventListener("submit", handleSubmit)
-      </script>
-    </div>
-  </main>
-
-  <footer></footer>
+  <footer class="flex flex-wrap gap-10 justify-between items-center px-24 py-6 mt-20 w-full text-base leading-8 bg-gray-200 text-neutral-800 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <p class="self-stretch my-auto">© 2024</p>
+    <nav class="flex gap-8 items-center self-stretch my-auto whitespace-nowrap">
+      <a href="https://www.linkedin.com/in/nakitto-catherine2020/" class="self-stretch my-auto">LinkedIn</a>
+      <a href="https://github.com/Cathella" class="self-stretch my-auto">Github</a>
+      <a href="https://www.youtube.com/@nakittocatherine" class="self-stretch my-auto">Youtube</a>
+      <a href="https://dribbble.com/nakittocatherine" class="self-stretch my-auto">Dribbble</a>
+    </nav>
+  </footer>
 </body>
 </html>
