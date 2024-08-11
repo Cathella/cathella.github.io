@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap');
 
 * {
   padding: 0;
@@ -11,4 +11,8 @@ body {
   color: #252525;
   background-color: #FFFFFF;
   background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/270ad78f0f6ae0b18b1c482b864276fe6335a79bebd7868d46ef6a477bab3a69?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc');
+}
+
+h1, h2, h3, h4, h5, h6, h1 span, .scroll, .scroll span {
+  font-family: "Space Grotesk", sans-serif;
 }
