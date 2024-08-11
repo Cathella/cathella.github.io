@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nakitto's Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="flex flex-wrap gap-10 justify-between items-center px-24 mt-4 w-full text-neutral-800 max-md:px-5 max-md:max-w-full">
+        <h1 class="self-stretch my-auto text-4xl font-bold">NC.</h1>
+        <nav class="flex gap-6 items-center self-stretch pr-14 pl-14 my-auto text-base leading-8 bg-blue-200 min-h-[64px] min-w-[240px] rounded-full max-md:pr-5">
+          <ul class="flex gap-6 justify-center items-center self-stretch my-2 min-w-[240px]">
+            <li>
+              <a href="index.html" class="self-stretch my-auto">Portfolio</a>
+            </li>
+            <li>
+                <a href="about.html" class="inline-block self-stretch px-8 my-auto py-2 font-bold whitespace-nowrap bg-white rounded-3xl min-h-[52px] max-md:px-5">About me</a>
+            </li>
+            <li>
+              <a href="#projects" class="self-stretch my-auto">My projects</a>
+            </li>
+            <li>
+              <a href="#hire" class="self-stretch my-auto">Hire me</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <section class="flex flex-col gap-10 justify-between items-center mt-20 px-96">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/16bb9d2111f3d3572efced3be630f143cd4af90a76637169c593b33d79282985?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-contain max-w-full rounded-full aspect-square w-[150px]" alt="Nakitto Catherine's profile picture" width="150" />
+        <h2 class="flex gap-4 items-center text-4xl font-medium max-md:max-w-full">
+            Hi, I'm Nakitto Catherine!
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/aa9eb13913186e8f43c1fac3f090becf72fd29abd2de5974539fb4eab671174f?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-contain shrink-0 self-stretch my-auto w-9 aspect-square" alt="Waving hand emoji" />
+        </h2>
+        <p class="mt-6 text-base leading-8 max-md:max-w-full">
+            My journey into design began back in 2013 when I created a website for a prenatal care mobile app using Google Sites for a class assignment. It was a time when specialties in the field were still unclear.
+            <br /><br />
+            My path hasn't been straightforward. I first learned to code in HTML and CSS. JavaScript scared me, so it took a while to grasp the basics. However, I persevered. I struggled to make my front-end look good and spent hours perfecting it. I couldn't stand ugly websites even if they worked well.
+            <br /><br />
+            To make my websites dynamic, I had to learn PHP, Laravel, and Bootstrap for faster development. I became really familiar with Bootstrap even though I could write perfect CSS but grew bored with time. Life happened, too: I became a mom, faced health challenges, and experienced depression. I called myself a developer but didn't even know how to use GitHub. I even went to a job interview once with my work saved on a flash drive!
+            <br /><br />
+            My life changed when I discovered a Microverse ad (Become a remote software engineer, from anywhere). It took a year, but I eventually joined. That's where I learned so much – communication, self-learning, online presence, teamwork, and more. Even as I developed, I felt drawn to design. Making interfaces user-friendly and visually appealing gave me immense satisfaction. I always enjoyed giving final touches to make apps user-friendly and attractive. So, I decided to pursue design as well
+            <br /><br />
+            I already knew tools like Illustrator, Photoshop, and Sketch, so learning Figma was easy and enjoyable. It didn't feel like work at all! In the past year, I've learned so much about UI/UX. Each day, I grow and explore new areas of user experience. Moving forward, I hope to find a balance between design and development while exploring no-code tools.
+        </p>
+    </section>
+
+    <footer class="flex flex-wrap gap-10 justify-between items-center px-24 py-6 mt-20 w-full text-base leading-8 bg-gray-200 text-neutral-800 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+        <p class="self-stretch my-auto">© 2024</p>
+        <nav class="flex gap-8 items-center self-stretch my-auto whitespace-nowrap">
+          <a href="https://www.linkedin.com/in/nakitto-catherine2020/" class="self-stretch my-auto">LinkedIn</a>
+          <a href="https://github.com/Cathella" class="self-stretch my-auto">Github</a>
+          <a href="https://www.youtube.com/@nakittocatherine" class="self-stretch my-auto">Youtube</a>
+          <a href="https://dribbble.com/nakittocatherine" class="self-stretch my-auto">Dribbble</a>
+        </nav>
+    </footer>
+
+    <!-- <section class="flex overflow-hidden flex-col bg-white text-neutral-800">
+        <div class="flex overflow-hidden relative flex-col w-full min-h-[1024px] max-md:max-w-full">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/270ad78f0f6ae0b18b1c482b864276fe6335a79bebd7868d46ef6a477bab3a69?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-cover absolute inset-0 size-full" alt="" />
+        
+        <main class="flex flex-col mt-16 max-w-full w-[700px] max-md:mt-10">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/16bb9d2111f3d3572efced3be630f143cd4af90a76637169c593b33d79282985?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-contain max-w-full rounded-full aspect-square w-[150px]" alt="Nakitto Catherine's profile picture" />
+            <article class="flex flex-col mt-20 w-full max-w-[700px] max-md:mt-10 max-md:max-w-full">
+            <h2 class="flex gap-4 items-center self-start text-4xl font-medium max-md:max-w-full">
+                Hi, I'm Nakitto Catherine!
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/aa9eb13913186e8f43c1fac3f090becf72fd29abd2de5974539fb4eab671174f?placeholderIfAbsent=true&apiKey=a1e51d57a9bf4fb0a44541a454bc05bc" class="object-contain shrink-0 self-stretch my-auto w-9 aspect-square" alt="Waving hand emoji" />
+            </h2>
+            <p class="mt-6 text-base leading-8 max-md:max-w-full">
+                My journey into design began back in 2013 when I created a website for a prenatal care mobile app using Google Sites for a class assignment. It was a time when specialties in the field were still unclear.
+                <br /><br />
+                My path hasn't been straightforward. I first learned to code in HTML and CSS. JavaScript scared me, so it took a while to grasp the basics. However, I persevered. I struggled to make my front-end look good and spent hours perfecting it. I couldn't stand ugly websites even if they worked well.
+                <br /><br />
+                To make my websites dynamic, I had to learn PHP, Laravel, and Bootstrap for faster development. I became really familiar with Bootstrap even though I could write perfect CSS but grew bored with time. Life happened, too: I became a mom, faced health challenges, and experienced depression. I called myself a developer but didn't even know how to use GitHub. I even went to a job interview once with my work saved on a flash drive!
+                <br /><br />
+                My life changed when I discovered a Microverse ad (Become a remote software engineer, from anywhere). It took a year, but I eventually joined. That's where I learned so much – communication, self-learning, online presence, teamwork, and more. Even as I developed, I felt drawn to design. Making interfaces user-friendly and visually appealing gave me immense satisfaction. I always enjoyed giving final touches to make apps user-friendly and attractive. So, I decided to pursue design as well
+                <br /><br />
+                I already knew tools like Illustrator, Photoshop, and Sketch, so learning Figma was easy and enjoyable. It didn't feel like work at all! In the past year, I've learned so much about UI/UX. Each day, I grow and explore new areas of user experience. Moving forward, I hope to find a balance between design and development while exploring no-code tools.
+            </p>
+            </article>
+        </main>
+        </div>
+    </section> -->
+</body>
+</html>
